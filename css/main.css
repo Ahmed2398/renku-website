@@ -14531,7 +14531,7 @@ border-radius: 10px;
 	color: var(--primary-color2);
 }
 /* END */
-
+/*
 .collapsible {
 	background-color: #777;
 	color: white;
@@ -14569,5 +14569,4 @@ border-radius: 10px;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 	background-color: #f1f1f1;
-	/* display: none; */
-  }
+  }*/
