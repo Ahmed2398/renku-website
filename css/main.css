@@ -30,6 +30,7 @@ Version: 		1.0.0
 19. Footer
 20. Utilities
 21. Custome Sections
+22.Custome media query
 -----------------------------------------------------*/
 /*------------------------------------------------------------------
 0. Roots styles and resets
@@ -4095,7 +4096,7 @@ text-align: center;
 }
 .visual-banners .visual-title h1{
 font-family: 'Poppins';
-font-size: var(--font-size-46) !important;
+font-size: var(--font-size-46) ;
 font-weight: 700;
 line-height: 79px;
 letter-spacing: 0em;
@@ -14083,12 +14084,12 @@ color: var(--primary-color2);
 
 .monoblock{
 	background-color: var(--accent-color);
-	padding: 60px;
+	padding: 60px 0;
 }
 
 .monoblock h2{
 font-family: 'Poppins';
-font-size: var(--font-size-46) !important;
+font-size: var(--font-size-46) ;
 font-weight: 700;
 line-height: 70px;
 letter-spacing: 0em;
@@ -14229,7 +14230,7 @@ color: var(--primary-color2);
 
 .our-mission .img-marketing{
 	width: 638px;
-	height: 551px;
+	height: 100%;
 	border-radius: 4px;
 
 }
@@ -14550,7 +14551,7 @@ border-radius: 10px;
   }
 
   
-  
+  /
   .collapsible:after {
 	content: '\002B';
 	color: white;
@@ -14569,4 +14570,227 @@ border-radius: 10px;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 	background-color: #f1f1f1;
-  }*/
+  }
+
+  /* Custome media Query */
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.breadcrumb-block{
+		margin-top: 35px;
+	}
+	.visual-banners .visual-title h1{
+		font-size: 20px;
+		padding: 0;
+		margin: 0;
+	}
+	.visual-banners .visual-title p{
+		font-size: 16px;
+	}
+	.monoblock h2{
+		font-size: 18px;
+		line-height: 2;
+	}
+	
+		/*Home Page  */
+		.slider-main-title{
+			font-size: 30px;
+		}
+		.experiences h3{
+			font-size: 22px;
+		}
+		.experiences .block-heading h2{
+			font-size: 18px;
+		}
+		.channel .bigchannel{
+			font-size:20px;
+		}
+		.channel h2{
+			font-size: 18px;
+		}
+		.work-block {
+			margin: 30px 0;
+			min-height: 0;
+		}
+		.work-block h2{
+			font-size: 18px;
+		}
+		.description p{
+			font-size: 14px;
+		}
+		.grow .big-grow{
+			font-size: 20px;
+		}
+		.grow h2{
+			font-size: 18px;
+		}
+		.grow p{
+			font-size: 14px;
+		}
+		.portfolio-block {
+			margin: 30px 0;
+		}
+		.portfolio-block h2{
+			font-size: 18px;
+		}
+		#defference-renku h2{
+			font-size: 18px;
+		}
+		#defference-renku .save-dev{
+			font-size: 20px;
+		}
+		#defference-renku  img{
+			width: 75%;
+		}
+		#customers h2{
+			font-size: 30px;
+    		text-align: center;
+		}
+		#customers p {
+			text-align: justify !important;
+			font-size: 14px;
+			line-height: 20px;
+		}
+		#customers h6{
+			text-align: justify !important;
+			font-size: 14px;
+			line-height: 20px;
+		}
+		#watch h2{
+			font-size: 18px;
+			line-height: 1;
+			margin-top: 20px;
+		}
+		.clients h2 {
+			
+			margin-top: 30px ;
+			line-height: 1;
+			font-size: 18px;
+		}
+		.footer .footer-main p{
+			font-size: 14px;
+		}
+		/* End Home */
+		.pricing-section .pricing-desc{
+			font-size: 14px;
+		}
+		.quotation-block h2{
+			font-size: 18px;
+			line-height: 2;
+		}
+		.demo-wrapper .element-heading{
+			margin-bottom: 0;
+		}
+		.list-price .list-priceItem{
+			font-size: 14px;
+		}
+		/* End Pricieng */
+		/* Integrations page */
+		.integrations .integrations-desc{
+			font-size: 14px;
+		}
+		/* End Integrations */
+		/* Contact Us page */
+		.contactUS h2{
+			margin-top: 20px;
+		}
+		.form-info p{
+			font-size: 14px;
+		}
+		.block-heading h2{
+			font-size: 18px;
+		}
+		/* End Contact Us */
+		/* Start Our Mission */
+		.our-mission .block-heading p{
+			font-size: 14px;
+		}
+		.our-mission .block-heading h2{
+			font-size: 18px;
+		}
+		/* End our mission */
+		.contactUS .btn{
+			margin-bottom: 20px;
+		}
+		/* END */
+		/* Start Academy */
+		.academy .block-heading h4{
+			font-size: 18px;
+			line-height: 1;
+		}
+		.academy .block-heading p{
+			font-size: 14px;
+		}
+		.widgets p{
+			font-size: 14px;
+		}
+		.widgets .desc{
+			font-size:12px;
+			text-align: justify;
+		}
+
+		.widgets .placement .head-placemet{
+			font-size: 18px;			
+		}
+		.widgets .placement .desc{
+			font-size:14px;
+		}
+		.widgets .placement .placement-item{
+			font-size:14px
+		}
+		.widgets-steps .list-steps h4 {
+			font-size: 18px;
+		}
+		.widgets-steps .list-steps p {
+			font-size: 14px;
+		}
+		.list-placement{
+			padding: 0;
+		}
+
+		.placement-item-install{
+			font-size: 14px;
+		}
+		.help .head-help{
+		    font-size: 18px;
+        }
+		.help .help-desc{
+		    font-size: 14px;
+        
+		}
+		.help .box-buttons{
+			display: grid;
+		}
+		.btn.btn-small-font{
+			margin: 10px;
+		}
+		.case-study .desc-case{
+			font-size: 18px;
+		}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.mono-block-btn{
+		margin: auto;
+	    justify-content: center;
+	}
+	.monoblock h2{
+		font-size: 26px;
+    }
+	}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
