@@ -12594,7 +12594,7 @@ pre {
 	}
 
 	.work-block {
-		min-height: 1240px;
+		min-height: 0;
 	}
 
 	.content-block-v4 {
